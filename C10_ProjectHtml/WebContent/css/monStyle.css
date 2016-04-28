@@ -1,0 +1,19 @@
+@CHARSET "ISO-8859-1";
+
+p {
+	color: blue;
+}
+
+.proverbe {
+	font-style: italic;
+	color: green
+}
+
+.origine {
+	font-style: bold;
+}
+
+#lapromodujour {
+	font-family: castellar;
+	background-color: yellow;
+}

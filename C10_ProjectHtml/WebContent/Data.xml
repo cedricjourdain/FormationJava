@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stock nom="monStock">
+	<Product>
+		<Alimentary nom="banane" poids="12.5" prix="3.4" />
+		<Alimentary nom="banane" poids="12.5" prix="3.4" />
+		<Alimentary nom="banane" poids="12.5" prix="3.4" />
+		<Alimentary nom="banane" poids="12.5" prix="3.4" />
+		<Alimentary nom="banane" poids="12.5" prix="3.4" />
+		<Alimentary nom="banane" poids="12.5" prix="3.4" />
+	</Product>
+</stock>

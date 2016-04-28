@@ -1,0 +1,159 @@
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Mon premier site</title>
+<link rel="stylesheet"
+	href="http://localhost:8080/ProjectHtml/css/monStyle.css" />
+<style>
+p {
+	color: blue;
+}
+
+.proverbe1 {
+	font-style: italic;
+	color: green
+}
+
+.origine1 {
+	font-style: bold;
+}
+
+#lapromodujour1 {
+	font-family: castellar;
+	background-color: yellow;
+}
+</style>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<p>
+		Sommaire :<br /> <a href="#liste">- Liste</a><br /> <a
+			href="#tableau">- Tableau</a><br /> <a href="#lien">- Lien</a><br />
+		<a href="#image">- Image</a><br />
+		<a href="#style">- Style</a><br />
+	</p>
+	<h1>Introduction au HTML</h1>
+	<h2>Quelques testes</h2>
+	<p>
+		<strong>Voici</strong> mon
+		<mark>premier</mark>
+		<br> Quelque caractère spéciaux&nbsp;&nbsp;&nbsp;&nbsp; &lt; &gt;
+		&acute; paragraphe &nbsp;&nbsp;&nbsp;&nbsp; &lt; &gt; &acute; &quot;
+		&amp; &#181 &agrave; &acute;
+	</p>
+	</br>
+	<h2>D'autre testes</h2>
+	<p>
+		voici mon <em>deuxieme</em> paragraphe </br> un passage a la ligne ______</br>____
+	</p>
+	<h2 id="liste">Liste</h2>
+	<p>voici mes courses
+	<ul>
+		<li>carotte</li>
+		<li>epice</li>
+	</ul>
+	<ol>
+		<li>oeufs</li>
+		<li>courgette</li>
+		<li>pq</li>
+	</ol>
+	</p>
+	<p>
+	<h2 id="tableau">Tableau</h2>
+	<dl>
+		<dt>élement1</dt>
+		<dd>définition de l'élément1</dd>
+		<dd>définition de l'élément1</dd>
+		<dt>élement2</dt>
+		<dd>définition de l'élément2</dd>
+	</dl>
+	</p>
+	<p>
+	<table>
+		<caption>Tableau simpe</caption>
+		<!-- Titre, légende du tableau -->
+		<tr>
+			<!-- ligne -->
+			<th>Titre 1</th>
+			<!-- Cellule -->
+			<th>Titre 2</th>
+			<!-- Cellule -->
+		</tr>
+		<tr>
+			<td>Contenu 1</td>
+			<!-- Cellule -->
+			<td>Contenu 2</td>
+			<!-- Cellule -->
+		</tr>
+	</table>
+
+	<table>
+		<caption></caption>
+		<!-- Titre, légende du tableau -->
+		<thead>
+			<!-- Titres de collone (utile en JS) -->
+			<tr>
+				<th>Titre 1</th>
+				<!-- Cellule -->
+				<th style="height: 32px;">Titre 2</th>
+				<!-- Cellule -->
+			</tr>
+		</thead>
+		<tr>
+			<td>Contenu 1</td>
+			<!-- Cellule -->
+			<td style="width: 115px;">Contenu 2</td>
+			<!-- Cellule -->
+		</tr>
+	</table>
+
+	</p>
+	<p>
+	<h2 id="lien">Lien</h2>
+	lien vers openclassrooms :
+	<a href="https://openclassrooms.com">OpenClassrooms</a>
+	<br>
+	<a href="mailto:votrenom@bidule.com">Envoyez-moi un e-mail !</a>
+	<p>
+		<a
+			href="file://C:\DevFormation\workspace\ProjectHtml\WebContent\download\image1.zip">Télécharger
+			le fichier</a>
+	</p>
+	<p>
+		<a href="http://localhost:8080/ProjectHtml/download/image1.zip">Télécharger
+			le fichier</a>
+	</p>
+	</p>
+	<p>
+	<h2 id="image">Image</h2>
+	<img src="http://localhost:8080/ProjectHtml/img/image2.jpg"
+		style="width: 399px; height: 242px;" />
+	<img
+		src="C:\DevFormation\workspace\ProjectHtml\WebContent\img\image1.png"
+		style="width: 367px; height: 240px;" />
+	</p>
+	<figure>
+		<img src="http://localhost:8080/ProjectHtml/img/image1.png"
+			alt="Photo 1" />
+		<figcaption>photo de Mamie</figcaption>
+		<code>
+			<code />
+	</figure>
+	<h2 id="style">Style</h2>
+	<div>
+		<p>NOPE</p>
+		<p class=origine>origine en gras</p>
+		<p class=proverbe>proverbe en italique vert</p>
+
+		<div>
+			<h1 id=lapromodujour class=origine>La promo du jour</h1>
+		</div>
+	</div>
+	<span>bloc span <span> deuxieme bloc span</span>
+	</span>
+
+	<p style="color: red;">ligne en rouge.</p>
+
+
+</body>
+</html>

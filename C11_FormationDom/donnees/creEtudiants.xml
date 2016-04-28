@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<listeEtudiant>
+    <!--Ceci est la liste es étudiants-->
+    <formation id="0">
+        <etudiant mail="mail0.gmail.com" metier="metier0" nom="etudiant0" prenom="prenom0">ceci est un exemple : 0</etudiant>
+        <etudiant mail="mail1.gmail.com" metier="metier1" nom="etudiant1" prenom="prenom1">ceci est un exemple : 0</etudiant>
+        <etudiant mail="mail2.gmail.com" metier="metier2" nom="etudiant2" prenom="prenom2">ceci est un exemple : 0</etudiant>
+        <etudiant mail="mail3.gmail.com" metier="metier3" nom="etudiant3" prenom="prenom3">ceci est un exemple : 0</etudiant>
+        <etudiant mail="mail4.gmail.com" metier="metier4" nom="etudiant4" prenom="prenom4">ceci est un exemple : 0</etudiant>
+    </formation>
+    <formation id="1">
+        <etudiant mail="mail0.gmail.com" metier="metier0" nom="etudiant0" prenom="prenom0">ceci est un exemple : 1</etudiant>
+        <etudiant mail="mail1.gmail.com" metier="metier1" nom="etudiant1" prenom="prenom1">ceci est un exemple : 1</etudiant>
+        <etudiant mail="mail2.gmail.com" metier="metier2" nom="etudiant2" prenom="prenom2">ceci est un exemple : 1</etudiant>
+        <etudiant mail="mail3.gmail.com" metier="metier3" nom="etudiant3" prenom="prenom3">ceci est un exemple : 1</etudiant>
+        <etudiant mail="mail4.gmail.com" metier="metier4" nom="etudiant4" prenom="prenom4">ceci est un exemple : 1</etudiant>
+    </formation>
+    <formation id="2">
+        <etudiant mail="mail0.gmail.com" metier="metier0" nom="etudiant0" prenom="prenom0">ceci est un exemple : 2</etudiant>
+        <etudiant mail="mail1.gmail.com" metier="metier1" nom="etudiant1" prenom="prenom1">ceci est un exemple : 2</etudiant>
+        <etudiant mail="mail2.gmail.com" metier="metier2" nom="etudiant2" prenom="prenom2">ceci est un exemple : 2</etudiant>
+        <etudiant mail="mail3.gmail.com" metier="metier3" nom="etudiant3" prenom="prenom3">ceci est un exemple : 2</etudiant>
+        <etudiant mail="mail4.gmail.com" metier="metier4" nom="etudiant4" prenom="prenom4">ceci est un exemple : 2</etudiant>
+    </formation>
+</listeEtudiant>

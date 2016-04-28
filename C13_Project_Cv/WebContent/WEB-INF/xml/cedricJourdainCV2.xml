@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE CV[
+<!ATTLIST CV nom CDATA #REQUIRED>
+<!ATTLIST CV prenom CDATA #REQUIRED>
+<!ATTLIST CV email CDATA #IMPLIED>
+	<!ELEMENT ListeCompetence (Competence*)>
+		<!ELEMENT Competence EMPTY>
+			<!ATTLIST Competence type CDATA #REQUIRED>
+			<!ATTLIST Competence precision CDATA #REQUIRED>
+			<!ATTLIST Competence niveau CDATA #REQUIRED>
+	
+	 <!ELEMENT ListeFormation (Formation*)>
+	 	 <!ELEMENT Formation EMPTY>
+			<!ATTLIST Formation date CDATA #REQUIRED>
+			<!ATTLIST Formation ecole CDATA #REQUIRED>
+			<!ATTLIST Formation diplome CDATA #REQUIRED>
+	<!ELEMENT ListeExperiences (Experience*)>
+	 	 <!ELEMENT Experience EMPTY>
+			<!ATTLIST Experience dateExp CDATA #REQUIRED>
+			<!ATTLIST Experience entreprise CDATA #REQUIRED>
+			<!ATTLIST Experience poste CDATA #REQUIRED>
+]>
+
+<CV nom='Jourdain' prenom='Cédric' email='mailcedric@gmail.com'>
+	<ListeCompetence>
+		<Competence type='informatiques' precision='C' niveau='debutant' />
+		<Competence type='informatiques' precision='C++' niveau='debutant' />
+		<Competence type='informatiques' precision='Python' niveau='debutant' />
+		<Competence type='informatiques' precision='Java' niveau='debutant' />
+		<Competence type='informatiques' precision='Matlab' niveau='intermediaire' />
+		<Competence type='langues' precision='Anglais' niveau='confirme' />
+		<Competence type='langues' precision='Espagnol' niveau='debutant' />
+	</ListeCompetence>
+	<ListeFormation>
+		<Formation date='2013-2015' diplome='Master, Modélisation, Spécialité calcul scientifique et applications' ecole='Université de Rennes I'/> 
+		<Formation date='2010-2013' diplome='Licence de Mathématiques' ecole='Université de Rennes I'/>
+		<Formation date='2009–2010' diplome=' Baccalauréat série scientiﬁque' ecole='Lycée Benjamin Franklin'/>
+	</ListeFormation>
+	<ListeExperiences>
+		<Experience dateExp='Avril-Octobre 2015' entreprise='Open Ocean' poste='Stage ”Mise en place et paramétrage physique d’un modèle océanique global pour la simulation des vagues”' />
+		<!--  • Pratique et étude théorique du logiciel de modélisation des états de mer WaveWatch 3. 
+		 • Stabilisation, verification et validation du modèle de simulation numérique (WW3). 
+		 • Manipulation de données (Netcdf,csv,xml,txt...) 
+		 • Développement python () -->
+		<Experience dateExp='Mai-Juillet 2014' entreprise='IRMAR' poste='Stage ”Simulation numérique de défauts de surface dans des micro résonateurs à modes de galerie” ' />
+		<!-- • Etude théorique de l’électromagnétisme (équation de Maxwell,Helmholtz) 
+		• Modélisation/Simulation (via Comsol et exploitation via Matlab)  -->
+	</ListeExperiences>
+</CV>

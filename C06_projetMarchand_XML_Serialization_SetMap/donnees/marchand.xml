@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Commercant>
+	<Marchand nomMarchand='Robert'>
+		<StockArrayList nomStock='monStock'>
+			<Alimentary nom='banane' weight='12' unitaryPrice='0.99' />
+			<Alimentary nom='patate' weight='5' unitaryPrice='1.8' />
+			<Consumable nom='casserole' quantity='13' unitaryPrice='12' />
+		</StockArrayList>
+		<StockArrayList nomStock='stockMarchandPrive'>
+			<Alimentary nom='A1' weight='1' unitaryPrice='1' />
+			<Alimentary nom='A2' weight='5' unitaryPrice='2' />
+			<Consumable nom='C1' quantity='13' unitaryPrice='3' />
+		</StockArrayList>
+		<StockArrayList nomStock='stockMarchandFamille'>
+			<Alimentary nom='A3' weight='1' unitaryPrice='4' />
+			<Alimentary nom='A4' weight='5' unitaryPrice='5' />
+			<Consumable nom='C2' quantity='13' unitaryPrice='6' />
+		</StockArrayList>
+	</Marchand>
+	<Marchand nomMarchand='Gilbert'>
+		<StockArrayList nomStock='monStock'>
+			<Alimentary nom='banane' weight='12' unitaryPrice='0.99' />
+			<Alimentary nom='patate' weight='5' unitaryPrice='1.8' />
+			<Consumable nom='casserole' quantity='13' unitaryPrice='12' />
+		</StockArrayList>
+		<StockArrayList nomStock='stockMarchandPrive'>
+			<Alimentary nom='A1' weight='1' unitaryPrice='1' />
+			<Alimentary nom='A2' weight='5' unitaryPrice='2' />
+			<Consumable nom='C1' quantity='13' unitaryPrice='3' />
+		</StockArrayList>
+		<StockArrayList nomStock='stockMarchandFamille'>
+			<Alimentary nom='A3' weight='1' unitaryPrice='4' />
+			<Alimentary nom='A4' weight='5' unitaryPrice='5' />
+			<Consumable nom='C2' quantity='13' unitaryPrice='6' />
+		</StockArrayList>
+	</Marchand>
+</Commercant>

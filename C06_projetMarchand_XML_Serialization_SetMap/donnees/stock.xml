@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Marchand[
+ <!ELEMENT StockArrayList     (Alimentary*,Consumable*)>
+ 	<!ATTLIST StockArrayList nomDuStock CDATA #REQUIRED>
+	<!ELEMENT Alimentary  EMPTY>
+		<!ATTLIST Alimentary name   CDATA #REQUIRED>
+		<!ATTLIST Alimentary weight CDATA #REQUIRED>
+		<!ATTLIST Alimentary unitaryPrice CDATA #REQUIRED >
+	<!ELEMENT Consumable  EMPTY>
+		<!ATTLIST Consumable name   CDATA #REQUIRED>
+		<!ATTLIST Consumable quantity  CDATA #REQUIRED>
+		<!ATTLIST Consumable unitaryPrice CDATA #REQUIRED>
+]>
+
+<StockArrayList nomDuStock='monStock'>
+	<Alimentary name='banane' weight='12' unitaryPrice='0.99' />
+	<Alimentary name='patate' weight='5' unitaryPrice='1.8' />
+	<Consumable name='casserole' quantity='13' unitaryPrice='12' />
+</StockArrayList>

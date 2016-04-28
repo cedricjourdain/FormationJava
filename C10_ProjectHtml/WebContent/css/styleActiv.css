@@ -1,0 +1,21 @@
+@CHARSET "ISO-8859-1";
+
+p {
+	
+	font-size: 14px;
+	font-family: Georgia, Arial, Verdana, sans-serif;
+	font-style: normal;
+	text-align: justify;
+}
+
+h1{
+	style="color: red;"
+	
+}
+.souligne {
+	text-decoration: underline;
+}
+
+.barre {
+	text-decoration: line-through;
+}

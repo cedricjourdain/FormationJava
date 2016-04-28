@@ -1,0 +1,7 @@
+C:\DevFormation\workspace\C5_InputOutput\.\test.txt
+C:\DevFormation\workspace\C5_InputOutput\.\donnees\fichierTexte.txt
+Boonjour tout le monde.
+Voici un fichier texte.
+C:\DevFormation\workspace\C5_InputOutput\.\donnees\repertoire\fichierTexte1.txt
+Boonjour tout le monde.
+Voici un fichier texte.
