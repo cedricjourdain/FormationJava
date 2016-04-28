@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE parking [
+<!ELEMENT Parking (Etage+)>
+	<!ELEMENT Etage (place=)>
+		<!ATTLIST Etage id ID #REQUIRED>
+		<!ELEMENT place EMPTY>
+			<!ATTLIST Place numero CDATA #REQUIRED>
+			<!ATTLIST Place largeur CDATA #REQUIRED> 
+			<!ATTLIST Place hauteur CDATA #REQUIRED> 
+]>
+<Parking>
+		<Etage id="RC">
+				<Place numero="1" largeur="4" hauteur="6"/>
+				<Place numero="2" largeur="4" hauteur="6"/>
+				<Place numero="3" largeur="4" hauteur="6"/>
+				<Place numero="4" largeur="4" hauteur="6"/>
+		</Etage>
+		<Etage id="e1">
+				<Place numero="1" largeur="4.5" hauteur="8"/>
+				<Place numero="2" largeur="4.5" hauteur="8"/>
+				<Place numero="3" largeur="4.5" hauteur="8"/>
+				<Place numero="4" largeur="4.5" hauteur="8"/>
+		</Etage>
+</Parking>
